@@ -15,8 +15,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            milesmcc/shynet
-            ghcr.io/milesmcc/shynet
+            ghcr.io/modos189/shynet
           tags:
             type=raw,value=latest
             type=ref,event=tag
