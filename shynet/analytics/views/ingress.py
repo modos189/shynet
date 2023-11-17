@@ -137,6 +137,7 @@ class ScriptView(ValidateServiceOriginsMixin, View):
             "analytics/scripts/page.js",
             context=dict(
                 {
+                    "main_host": settings.MAIN_HOST,
                     "endpoint": endpoint,
                     "protocol": protocol,
                     "heartbeat_frequency": heartbeat_frequency,

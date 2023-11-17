@@ -391,3 +391,4 @@ IPWARE_META_PRECEDENCE_ORDER = (
     'HTTP_VIA',
     'REMOTE_ADDR',
 )
+MAIN_HOST = os.environ.get("MAIN_HOST")
